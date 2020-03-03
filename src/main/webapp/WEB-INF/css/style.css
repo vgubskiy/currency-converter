@@ -1,0 +1,261 @@
+html {
+    width: 1100px;
+    margin: auto;
+}
+
+body {
+    background: #AAAAAA;
+    width: 1000px;
+    margin: auto;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.center {
+    width: 90%;
+    margin: auto;
+}
+
+.center1 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.login-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+
+.loginForm {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.loginForm input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.loginForm button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #1C6EA4;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+}
+.loginForm button:hover,.loginForm button:active,.loginForm button:focus {
+    background: #1C6EA4;
+}
+
+
+.formSelect {
+    margin-bottom: 0;
+}
+
+.fromCurrSelect, .toCurrSelect, .fromValue, .resultValue {
+    border-color: #99b6df;
+    border-width: 2px;
+    border-radius: 3px;
+    background: #f2f2f2;
+}
+
+.fromCurrSelect, .toCurrSelect, .fromCurrSelectErr, .toCurrSelectErr, .fromValue, .resultValue, .fromValueErr, .searchFromCurr, .searchToCurr  {
+    width: 200px;
+    height: 30px;
+}
+
+.fromCurrSelectErr {
+    float: left;
+}
+
+.toCurrSelectErr {
+    margin-left: 5px;
+    float: left;
+}
+
+.fromCurrSelectErr, .toCurrSelectErr, .fromValueErr {
+    color: white;
+    font-size: 16px;
+}
+
+.fromCurrSelect, .fromCurrSelectErr, .fromValue {
+    margin-right: 50px;
+}
+
+.historySearch {
+    margin-bottom: 50px;
+}
+
+.searchLabel, .searchDate, .searchFromCurr, .searchToCurr {
+    float: left;
+}
+
+.searchLabel {
+    margin: 5px;
+    font-weight: 300;
+}
+
+.searchDate {
+    width: 140px;
+    height: 30px;
+}
+
+.searchFromCurr, .searchToCurr {
+    width: 200px;
+    height: 30px;
+}
+
+#searchButton, #resetSearchButton {
+    width: 100px;
+    height: 30px;
+    margin: 1px 0 0 10px;
+}
+
+#convertButton {
+    width: 180px;
+    font-size: 18px;
+}
+
+button.orange {
+    width: 140px;
+    height: 50px;
+    margin: 5px;
+    font-weight: 800;
+    background: #feda71;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#feda71), to(#febe4d));
+    background: -moz-linear-gradient(#feda71, #febe4d);
+    background: linear-gradient(#feda71, #febe4d);
+    border: solid 1px #eab551;
+    border-bottom: solid 3px #b98a37;
+    box-shadow: inset 0 0 0 1px #fee9aa;
+    color: #996633;
+    text-shadow: 0 1px 0 #fedd9b; }
+
+button.orange:hover {
+    background: #fec455;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#fec455), to(#fecd61));
+    background: -moz-linear-gradient(#fec455, #fecd61);
+    background: linear-gradient(#fec455, #fecd61);
+    border: solid 1px #e6a93d;
+    border-bottom: solid 3px #b98a37;
+    box-shadow: inset 0 0 0 1px #fedb98; }
+
+button.orange:active {
+    background: #f9bd4f;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#f9bd4f), to(#f0b64d));
+    background: -moz-linear-gradient(#f9bd4f, #f0b64d);
+    background: linear-gradient(#f9bd4f, #f0b64d);
+}
+
+button.blue {
+    height: 40px;
+    margin: 5px;
+    font-weight: 800;
+    font-size: 18px;
+    background: #99b6df;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#99b6df), to(#638ec8));
+    background: -moz-linear-gradient(#99b6df, #638ec8);
+    background: linear-gradient(#99b6df, #638ec8);
+    border: solid 1px #6d94ce;
+    border-bottom: solid 3px #3867ac;
+    box-shadow: inset 0 0 0 1px #bbcfeb;
+    color: #fff;
+    text-shadow: 0 1px 0 #3c61ab; }
+
+button.blue:hover {
+    background: #638ec8;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#638ec8), to(#99b6df));
+    background: -moz-linear-gradient(#638ec8, #99b6df);
+    background: linear-gradient(#638ec8, #99b6df);
+    border: solid 1px #6d94ce;
+    border-bottom: solid 3px #3867ac;
+    box-shadow: inset 0 0 0 1px #bbcfeb; }
+
+button.blue:active {
+    background: #638ec8;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#638ec8), to(#99b6df));
+    background: -moz-linear-gradient(#638ec8, #99b6df);
+    background: linear-gradient(#638ec8, #99b6df);
+    border: solid 1px #6d94ce;
+    box-shadow: inset 0 10px 15px 0 #4176c4; }
+
+
+table.blueTable {
+    border: 1px solid #1C6EA4;
+    background-color: #EEEEEE;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+table.blueTable td, table.blueTable th {
+    border: 1px solid #AAAAAA;
+    padding: 3px 2px;
+}
+table.blueTable tbody td {
+    font-size: 13px;
+}
+table.blueTable tr:nth-child(even) {
+    background: #D0E4F5;
+}
+table.blueTable thead {
+    background: #1C6EA4;
+    background: -moz-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+    background: -webkit-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+    background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+    border-bottom: 2px solid #444444;
+}
+table.blueTable thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-left: 2px solid #D0E4F5;
+}
+table.blueTable thead th:first-child {
+    border-left: none;
+}
+
+table.blueTable tfoot {
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #D0E4F5;
+    background: -moz-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+    background: -webkit-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+    background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+    border-top: 2px solid #444444;
+}
+table.blueTable tfoot td {
+    font-size: 14px;
+}
+table.blueTable tfoot .links {
+    text-align: right;
+}
+table.blueTable tfoot .links a{
+    display: inline-block;
+    background: #1C6EA4;
+    color: #FFFFFF;
+    padding: 2px 8px;
+    border-radius: 5px;
+}

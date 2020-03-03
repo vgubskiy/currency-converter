@@ -1,0 +1,29 @@
+server:
+   port: 8085
+
+spring:
+   datasource:
+      hikari:
+         connectionTimeout: 20000
+         maximumPoolSize: 5
+
+      url: "jdbc:postgresql://localhost:5432/postgres"
+      username: "postgres"
+      password: "postgres"
+   jpa:
+      hibernate:
+         ddl-auto: create
+      properties:
+         hibernate:
+            dialect: "org.hibernate.dialect.PostgreSQLDialect"
+      show-sql: false
+   mvc:
+      view:
+         prefix: "/WEB-INF/views/"
+         suffix: ".jsp"
+
+
+cbr:
+   url: "http://www.cbr.ru/scripts/XML_daily.asp"
+   date:
+      format: "d.MM.yyyy"
